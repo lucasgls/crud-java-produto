@@ -40,8 +40,7 @@
                         String descricao = scan.nextLine();
 
                         System.out.print("Preço: ");
-                        double preco  = scan.nextDouble();
-                        scan.nextLine();
+                        double preco  = Double.parseDouble(scan.nextLine());
 
                         System.out.print("Quantidade: ");
                         int quantidade = scan.nextInt();
@@ -77,7 +76,7 @@
                         String novaDescricao = scan.nextLine();
 
                         System.out.print("Preço: ");
-                        double novoPreco  = scan.nextDouble();
+                        double novoPreco  = Double.parseDouble(scan.nextLine());
                         scan.nextLine();
 
                         System.out.print("Quantidade: ");
